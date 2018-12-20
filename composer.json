@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Harishpatel143\\Base64Validation\\Base64ServiceProvider"
+                "Harishpatel143\\Base64Validation\\Providers\\Base64ServiceProvider"
             ]
         }
     }
