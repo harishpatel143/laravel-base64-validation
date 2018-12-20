@@ -1,0 +1,26 @@
+{
+    "name": "harishpatel143/laravel-base64-validation",
+    "description": "This package use for validate the image upload by base64 encoded.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harish Patel",
+            "email": "harishdpatel143@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Harishpatel143\\Base64Validation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Harishpatel143\\Base64Validation\\Base64ServiceProvider"
+            ]
+        }
+    }
+}
